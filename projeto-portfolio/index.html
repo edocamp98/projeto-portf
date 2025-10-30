@@ -10,11 +10,11 @@
     <header>
         <nav id="menu">
             <ul>
-                <li><a href="#"><i class="fi fi-rs-home"></i></a></li>
-                <li><a href="#"><i class="fi fi-rs-book-bookmark"></i></a></li>
-                <li><a href="#"><i class="fi fi-rs-diploma"></i></a></li>
-                <li><a href="#"><i class="fi fi-rs-blueprint"></i></a></li>
-                <li><a href="#"><i class="fi fi-rs-sun"></i></a></li>
+                <li><a href="#ficha" class="link"><i class="fi fi-rs-home"></i></a></li>
+                <li><a href="#skills" class="link"><i class="fi fi-rs-book-bookmark"></i></a></li>
+                <li><a href="#formacao" class="link"><i class="fi fi-rs-diploma"></i></a></li>
+                <li><a href="#projetos" class="link"><i class="fi fi-rs-blueprint"></i></a></li>
+                <li><a href="#" id="botao-tema"><i class="fa-solid fa-moon"></i></a></li>
             </ul>
         </nav>
     </header>
@@ -23,128 +23,169 @@
         <section id="ficha">
             <img src="imagens/perfil.jpg" alt="eol">
             <h1>Eduardo Campagnola</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio laudantium saepe, quam incidunt, suscipit atque voluptate facere possimus, corporis consequatur exercitationem illo ullam voluptatem fugiat repellendus earum illum aut similique.</p>
+            <p>Formado em Design Gráfico e cursando Análise e Desenvolvimento de Sistemas.
+                Sou um artista digital amante de ilustração e das artes tradicionais.
+                Atualmente estou me desenvolvendo como programador.
+            </p>
             <div id="social">
                 <a href="https://x.com/mossytactics" target="_blank" rel="nofollow"><i class="fi fi-brands-twitter-alt"></i></a>
                 <a href="https://www.instagram.com/campagnola.ed/" target="_blank" rel="nofollow"><i class="fi fi-brands-instagram"></i></a>
                 <a href="https://www.facebook.com/eduardo.c.silva.5/" target="_blank" rel="nofollow"><i class="fi fi-brands-facebook"></i></a></div>
         </section>
-            <article id="skills">
-                <h2><i class="fi fi-rs-book-bookmark"></i> Skills</h2>
-                <div class="skill-container">
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                HTML5
-                            </span>
-                            <span class="porcento">
-                                90%
-                            </span>
+            <section id="detalhes">
+                <article id="skills">
+                    <h2><i class="fi fi-rs-book-bookmark"></i> Skills</h2>
+                    <div class="skill-container">
+                        <div class="item">
+                            <div class="info">
+                                <span class="nome">
+                                    HTML5
+                                </span>
+                                <span class="porcento">
+                                    90%
+                                </span>
+                                </div>
+                            <div class="barra">
+                                <div class="progresso" STYLE="width: 90%;"></div>
                             </div>
-                        <div class="barra">
-                            <div class="progresso" STYLE="width: 90%;"></div>
                         </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                CSS3
-                            </span>
-                            <span class="porcento">
-                                75%
-                            </span>
+                        <div class="item">
+                            <div class="info">
+                                <span class="nome">
+                                    CSS3
+                                </span>
+                                <span class="porcento">
+                                    75%
+                                </span>
+                                </div>
+                            <div class="barra">
+                                <div class="progresso" STYLE="width: 75%;"></div>
                             </div>
-                        <div class="barra">
-                            <div class="progresso" STYLE="width: 75%;"></div>
                         </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                Python
-                            </span>
-                            <span class="porcento">
-                                70%
-                            </span>
-                             </div>
-                        <div class="barra">
-                            <div class="progresso" STYLE="width: 70%;"></div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                Design Gráfico
-                            </span>
-                            <span class="porcento">
-                                80%
-                            </span>
+                        <div class="item">
+                            <div class="info">
+                                <span class="nome">
+                                    Python
+                                </span>
+                                <span class="porcento">
+                                    70%
+                                </span>
+                                 </div>
+                            <div class="barra">
+                                <div class="progresso" STYLE="width: 70%;"></div>
                             </div>
-                        <div class="barra">
-                            <div class="progresso" STYLE="width: 80%;"></div>
                         </div>
-                    </div>
-                    
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                Ilustração
-                            </span>
-                            <span class="porcento">
-                                85%
-                            </span>
+                        <div class="item">
+                            <div class="info">
+                                <span class="nome">
+                                    Design Gráfico
+                                </span>
+                                <span class="porcento">
+                                    80%
+                                </span>
+                                </div>
+                            <div class="barra">
+                                <div class="progresso" STYLE="width: 80%;"></div>
                             </div>
-                        <div class="barra">
-                            <div class="progresso" STYLE="width: 85%;"></div>
                         </div>
-                    </div>
-                </div>
-            </article>
-            <!--Fim das skills-->
-            <article id="formacao">
-                <h2><i class="fi fi-rs-diploma"></i> Formação</h2>
-                <div id="formacao-container">
-                    
-                    <div class="curso">
-                        <p class="periodo">2013 → 2015</p>
-                        <h3 class="instituicao">E. E. José Maria Matosinho</h3>
-                        <p class="titulacao">Ensino Médio</p>
-                    </div>
-                    
-                    <div class="curso">
-                        <p class="periodo">2015 → 2016</p>
-                        <h3 class="instituicao">Universidade Paulista - UNIP</h3>
-                        <p class="titulacao">Design Gráfico</p>
-                    </div>
-                    
-                    <div class="curso">
-                        <p class="periodo">2025 → Atualmente</p>
-                        <h3 class="instituicao">Estácio de Sá</h3>
-                        <p class="titulacao">Análise e Desenvolvimento de Sistemas</p>
-                    </div>
-                </div>
                 
-            </article>
-            <!--Fim das Formações-->
-            <article id="projetos">
-                <div id="projeto-container">
-                    <div class="projeto"> <!---->
-                        <img src="imagens/Cordel.png" alt="Projeto 1" class="foto">
-                        <div class="projeto-info">
-                            <h3 class="titulo">Projeto de Cordel</h3>
-                            <p>Desenvolvimento de um site simples para testar a implementação de efeito parallax.</p>
-                            <details class="descricao">
-                                <summary>Saiba mais...</summary>
-                                    <p>Utilizei "display:block" e defini imagens de backgrounds fixas para dar a sensação de uma transição dinâmica entre as barras de texto e as imagens ao fundo.</p>
-                            </details>
+                        <div class="item">
+                            <div class="info">
+                                <span class="nome">
+                                    Ilustração
+                                </span>
+                                <span class="porcento">
+                                    85%
+                                </span>
+                                </div>
+                            <div class="barra">
+                                <div class="progresso" STYLE="width: 85%;"></div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </article>
-            <!--Fim dos Projetos-->
+                </article>
+                <!--Fim das skills-->
+                <article id="formacao">
+                    <h2><i class="fi fi-rs-diploma"></i> Formação</h2>
+                    <div id="formacao-container">
+                
+                        <div class="curso">
+                            <p class="periodo">2013 → 2015</p>
+                            <h3 class="instituicao">E. E. José Maria Matosinho</h3>
+                            <p class="titulacao">Ensino Médio</p>
+                        </div>
+                
+                        <div class="curso">
+                            <p class="periodo">2015 → 2016</p>
+                            <h3 class="instituicao">Universidade Paulista - UNIP</h3>
+                            <p class="titulacao">Design Gráfico</p>
+                        </div>
+                
+                        <div class="curso">
+                            <p class="periodo">2025 → Atualmente</p>
+                            <h3 class="instituicao">Estácio</h3>
+                            <p class="titulacao">Análise e Desenvolvimento de Sistemas</p>
+                        </div>
+                    </div>
+                
+                </article>
+                <!--Fim das Formações-->
+                <article id="projetos">
+                    <h2><i class="fi fi-rs-blueprint"></i> Projetos</h2>
+                    <div id="projeto-container">
+                        <div class="projeto"> <!--Projeto Cordel-->
+                            <img src="imagens/Cordel.png" alt="Projeto 1" class="foto">
+                            <div class="projeto-info">
+                                <p>2025</p>
+                                <h3 class="titulo">Cordel</h3>
+                                <p>Desenvolvimento de um site simples para testar a implementação de efeito parallax.</p>
+                                <details class="descricao">
+                                    <summary>Saiba mais...</summary>
+                                        <p>Utilizei "display:block" e defini imagens de backgrounds fixas para dar a sensação de uma transição dinâmica entre as barras de texto e as imagens ao fundo.</p>
+                                </details>
+                            </div>
+                        </div>
+                        <div class="projeto"> <!--Projeto Login-->
+                            <img src="imagens/Login.png" alt="Projeto 2" class="foto">
+                            <div class="projeto-info">
+                                <p>2025</p>
+                                <h3 class="titulo">Tela de Login</h3>
+                                <p>Desenvolvimento de uma tela de login funcional em flex.</p>
+                                <details class="descricao">
+                                    <summary>Saiba mais...</summary>
+                                        <p>Utilizei inputs configurados para receber informações de login do usuário.  </p>
+                                </details>
+                            </div>
+                        </div>
+                        <div class="projeto"> <!--Projeto iframe-->
+                            <img src="imagens/iframe.png" alt="Projeto 3" class="foto">
+                            <div class="projeto-info">
+                                <p>2025</p>
+                                <h3 class="titulo">iFrame</h3>
+                                <p>Desafio de inserção de iframe de modo adaptável.</p>
+                                <details class="descricao">
+                                    <summary>Saiba mais...</summary>
+                                        <p>O iframe foi inserido na tela do smartfone de modo que os ícones laterais carregam na tela os links previamente configurados.</p>
+                                </details>
+                            </div>
+                        </div>
+                        <div class="projeto"> <!--Projeto Site-->
+                            <img src="imagens/siteandroid.png" alt="Projeto 4" class="foto">
+                            <div class="projeto-info">
+                                <p>2025</p>
+                                <h3 class="titulo">Site - Android</h3>
+                                <p>Exercício de reprodução de uma página.</p>
+                                <details class="descricao">
+                                    <summary>Saiba mais...</summary>
+                                        <p>Fazendo uso de alinhamentos básicos com "display:block", reproduzi a página sugerida pelo "cursoemvideo" como prática.</p>
+                                </details>
+                            </div>
+                        </div>
+                
+                    </div>
+                </article>
+                <!--Fim dos Projetos-->
+            </section>
             
         </main>
     
