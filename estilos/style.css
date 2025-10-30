@@ -221,14 +221,15 @@ article h2{
   
 }
 #projeto-container .descricao p{
-  text-indent: 5px;
   padding: 5px;
-
+  color: var(--cor1);
+  font-weight: bold;
 
 }
 #projeto-container .descricao > summary:hover{
   cursor: pointer;
   font-weight: bold;
+  
 }
 
 footer {
